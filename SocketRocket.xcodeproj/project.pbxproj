@@ -1173,7 +1173,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D647591D2CA6A100690609 /* SocketRocket-iOS-Dynamic.xcconfig */;
 			buildSettings = {
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 			};
 			name = Debug;
@@ -1182,7 +1182,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D647591D2CA6A100690609 /* SocketRocket-iOS-Dynamic.xcconfig */;
 			buildSettings = {
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 			};
 			name = Release;
